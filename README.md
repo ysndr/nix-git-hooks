@@ -1,6 +1,6 @@
 # Nix Git Hooks
 
-This repository is the accompanying library to my [blog post](https://blog.ysndr.de/posts/code/git-hooks/). 
+This repository is the accompanying library to my [blog post](https://blog.ysndr.de/posts/code/2021-12-02-git-hooks/).
 
 The flake provides two library functions `mkInstaller` and `mkUninstaller` that can be used to create commands to install and unsinstall git hooks respectively.
 
