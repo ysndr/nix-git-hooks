@@ -9,7 +9,7 @@ The flake provides two library functions `mkInstaller` and `mkUninstaller` that 
 Include the flake as input to your own flake:
 
 ```nix
-inputs.nix-git-hooks.url = "github:ysndr/nix-git-hook";
+inputs.nix-git-hooks.url = "github:ysndr/nix-git-hooks";
 ```
 
 Define git hooks, for example:
