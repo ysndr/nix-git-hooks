@@ -15,7 +15,7 @@
                   paths = hooks;
                 }
               }/bin/*; do
-              $hook
+              $hook "$@"
               RESULT=$?
               if [ $RESULT != 0 ]; then
                   echo "$hook returned non-zero: $RESULT, abort operation"
